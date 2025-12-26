@@ -11,6 +11,7 @@ export default function Navbar() {
         <Link href="/rulebook">Rules</Link>
         <Link href="/register">Register</Link>
         <Link href="/gallery">Gallery</Link>
+        <Link href="/contact">Contact</Link>
       </div>
     </nav>
   );
