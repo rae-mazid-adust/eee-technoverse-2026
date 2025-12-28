@@ -7,12 +7,23 @@ export const metadata = {
   description: "National Level EEE Tech Event at ADUST",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
-      <body>
+      <body className="antialiased">
+        {/* Sticky Navbar */}
         <Navbar />
-        {children}
+
+        {/* Main content offset for fixed navbar */}
+        <main className="pt-20 min-h-screen">
+          {children}
+        </main>
+
+        {/* Footer */}
         <Footer />
       </body>
     </html>
