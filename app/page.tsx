@@ -29,7 +29,7 @@ export default function Home() {
 
           {/* Event Info */}
           <p className="text-base md:text-lg text-gray-600 leading-relaxed">
-            <span className="font-semibold">January 9–10, 2026</span>
+            <span className="font-semibold">January 16–17, 2026</span>
             <br />
             Organized by the Department of Electrical & Electronic Engineering
             (EEE)
