@@ -17,7 +17,7 @@ export default function Segments() {
 
         {/* DAY 1 */}
         <section className="mb-16">
-          <h2 className="text-2x1 sm:text-xl md:text-2xl font-bold text-black">
+          <h2 className="text-2xl sm:text-xl md:text-2xl font-bold text-black">
             🔥 Day 1: Tech Innovation & Knowledge Fest
           </h2>
 
