@@ -47,12 +47,9 @@ export default function Home() {
         🚨 Registration is Open for participation in EEE Technoverse 2026.
       </span>
 
-      <a
-        href="/register"
-        className="mx-6 text-lg md:text-xl font-bold text-blue-800 underline hover:text-blue-600 transition"
-      >
-        Register Now ➜
-      </a>
+      <span className="mx-6 text-lg md:text-xl font-semibold text-red-700 animate-pulse">
+        🚨 Visit Segments and Complete Registration
+      </span>
 
       <span className="mx-6 text-lg md:text-xl font-semibold text-red-700 animate-pulse">
         🚨 Registration is Open for participation in EEE Technoverse 2026.
