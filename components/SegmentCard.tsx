@@ -18,16 +18,32 @@ export default function SegmentCard({
   category,
 }: SegmentCardProps) {
   return (
-    <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition">
-      <div className="text-sm mb-2 font-semibold">{category}</div>
+    <div className="bg-white rounded-xl shadow-md p-6 transition hover:shadow-lg">
+      
+      {/* Category */}
+      <div className="text-sm font-semibold text-slate-600 mb-2">
+        {category}
+      </div>
 
-      <h3 className="text-lg font-semibold mb-2">{title}</h3>
+      {/* Title */}
+      <h3 className="text-lg font-bold text-slate-900 mb-2">
+        {title}
+      </h3>
 
-      {time && <p className="text-sm mb-2">🕒 {time}</p>}
+      {/* Time */}
+      {time && (
+        <p className="text-sm text-slate-600 mb-2">
+          🕒 {time}
+        </p>
+      )}
 
-      <p className="text-sm mb-4">{description}</p>
+      {/* Description */}
+      <p className="text-sm text-slate-700 mb-4">
+        {description}
+      </p>
 
-      <div className="text-sm space-y-1">
+      {/* Meta Info */}
+      <div className="text-sm text-slate-700 space-y-1">
         {participants && <p>🎯 {participants}</p>}
         {teamSize && <p>👥 {teamSize}</p>}
         {awards && <p>🏅 {awards}</p>}
