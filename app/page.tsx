@@ -40,7 +40,7 @@ export default function Home() {
       </section>
 
 {/* REGISTRATION ANNOUNCEMENT BAR */}
-<section className="bg-yellow-100 border-y border-yellow-400 py-3 overflow-hidden">
+<section className="bg-orange-100 border-y border-yellow-400 py-3 overflow-hidden">
   <div className="relative whitespace-nowrap group">
     <div className="inline-block animate-marquee group-hover:[animation-play-state:paused]">
       <span className="mx-6 text-lg md:text-xl font-semibold text-red-700 animate-pulse">
