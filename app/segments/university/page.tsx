@@ -16,7 +16,7 @@ export default function SegmentsPage() {
 
       {/* Registration Banner */}
       <section className="max-w-4xl mx-auto mb-10 bg-indigo-500 text-white rounded-lg p-5 text-center font-semibold">
-        👉 Registration for ElectroQuiz is open.{" "}
+        👉 Registration for EEE Technoverse is open.{" "}
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLSeBmv_Xtp8UorX6B5141pXhrHx8VBnxuMmHagvraQ3qhNx0lg/viewform?usp=dialog"
           target="_blank"
