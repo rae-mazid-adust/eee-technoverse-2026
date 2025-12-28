@@ -14,6 +14,18 @@ export default function SegmentsPage() {
         </p>
       </section>
 
+      {/* Registration Banner */}
+      <section className="max-w-4xl mx-auto mb-10 bg-indigo-500 text-white rounded-lg p-5 text-center font-semibold">
+        👉 Registration for ElectroQuiz is open.{" "}
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSeBmv_Xtp8UorX6B5141pXhrHx8VBnxuMmHagvraQ3qhNx0lg/viewform?usp=dialog"
+          target="_blank"
+          className="underline font-bold ml-1"
+        >
+          Register Here →
+        </a>
+      </section>
+
       {/* DAY 1 */}
       <section className="max-w-7xl mx-auto mb-20">
         <h2 className="text-2xl font-bold text-white mb-2">
@@ -130,14 +142,6 @@ export default function SegmentsPage() {
             participants="Programmers & embedded teams"
             teamSize="Maximum 3 members"
             awards="Champion Crest + Cash Prize"
-          />
-
-          <SegmentCard
-            category="🧠 Quiz"
-            title="ElectroQuiz: TechBrain Showdown"
-            time="11:00 AM – 12:30 PM"
-            description="Fast-paced quiz covering physics, electronics, math, and ICT fundamentals."
-            participants="150–200 college students"
           />
 
           <SegmentCard
