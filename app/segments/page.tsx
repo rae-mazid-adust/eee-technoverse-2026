@@ -9,7 +9,7 @@ export default function Segments() {
 
         <div className="flex justify-center mt-2 mb-8">
           <span className="h-1 w-20 bg-technorange rounded"></span>
-        npm run dev</div>
+        </div>
 
         <p className="text-center text-gray-600 mb-10">
           Event details are as following (subject to revision by the organizers)
