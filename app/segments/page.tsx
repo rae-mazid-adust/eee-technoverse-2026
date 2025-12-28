@@ -3,9 +3,13 @@ export default function Segments() {
     <main className="bg-white">
       <section className="max-w-6xl mx-auto px-6 py-16">
         {/* PAGE TITLE */}
-        <h1 className="text-4xl font-bold mb-4 text-center">
-          Event Segments
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 text-center">
+        Event Segments
         </h1>
+
+        <div className="flex justify-center mt-2 mb-8">
+          <span className="h-1 w-20 bg-technorange rounded"></span>
+        </div>
 
         <p className="text-center text-gray-600 mb-10">
           Event details are as following (subject to revision by the organizers)
