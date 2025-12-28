@@ -11,13 +11,13 @@ export default function Segments() {
           <span className="h-1 w-20 bg-technorange rounded"></span>
         </div>
 
-        <p className="text-center text-gray-600 mb-10">
+        <p className="text-center text-gray-800 mb-10">
           Event details are as following (subject to revision by the organizers)
         </p>
 
         {/* DAY 1 */}
         <section className="mb-16">
-          <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-800">
+          <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-1200">
             🔥 Day 1: Tech Innovation & Knowledge Fest
           </h2>
 
@@ -113,7 +113,7 @@ export default function Segments() {
 
         {/* DAY 2 */}
         <section>
-          <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-800">
+          <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-1200">
             🎉 Day 2: Culture, Fun & Connection
           </h2>
 
