@@ -39,6 +39,30 @@ export default function Home() {
         </div>
       </section>
 
+{/* REGISTRATION ANNOUNCEMENT BAR */}
+<section className="bg-yellow-100 border-y border-yellow-400 py-3 overflow-hidden">
+  <div className="relative whitespace-nowrap group">
+    <div className="inline-block animate-marquee group-hover:[animation-play-state:paused]">
+      <span className="mx-6 text-lg md:text-xl font-semibold text-red-700 animate-pulse">
+        🚨 Registration is Open for participation in EEE Technoverse 2026.
+      </span>
+
+      <a
+        href="/register"
+        className="mx-6 text-lg md:text-xl font-bold text-blue-800 underline hover:text-blue-600 transition"
+      >
+        Register Now ➜
+      </a>
+
+      <span className="mx-6 text-lg md:text-xl font-semibold text-red-700 animate-pulse">
+        🚨 Registration is Open for participation in EEE Technoverse 2026.
+      </span>
+    </div>
+  </div>
+</section>
+
+
+
       {/* ABOUT EVENT SECTION */}
       <section className="bg-gray-50 py-20 px-6">
         <div className="max-w-4xl mx-auto">
