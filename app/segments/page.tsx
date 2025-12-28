@@ -9,7 +9,7 @@ export default function Segments() {
 
         <div className="flex justify-center mt-2 mb-8">
           <span className="h-1 w-20 bg-technorange rounded"></span>
-        </div>
+        npm run dev</div>
 
         <p className="text-center text-gray-600 mb-10">
           Event details are as following (subject to revision by the organizers)
@@ -17,7 +17,7 @@ export default function Segments() {
 
         {/* DAY 1 */}
         <section className="mb-16">
-          <h2 className="text-3xl font-bold mb-6">
+          <h2 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-800">
             🔥 Day 1: Tech Innovation & Knowledge Fest
           </h2>
 
@@ -113,7 +113,7 @@ export default function Segments() {
 
         {/* DAY 2 */}
         <section>
-          <h2 className="text-3xl font-bold mb-6">
+          <h2 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-800">
             🎉 Day 2: Culture, Fun & Connection
           </h2>
 
