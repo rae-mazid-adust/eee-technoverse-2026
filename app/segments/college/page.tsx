@@ -43,7 +43,28 @@ export default function CollegeSegments() {
           🎯 Open to college & polytechnic students only 
         </p>
       </section>
+{/* Quiz Rules PDF Section */}
+<section className="mt-20 rounded-xl border bg-gray-50 p-8 text-center">
+  <h2 className="text-2xl font-bold text-gray-900">
+    ElectroQuiz 2026 – Rules & Curriculum
+  </h2>
+
+  <p className="mt-3 text-gray-600 max-w-2xl mx-auto">
+    Detailed rules, eligibility criteria, competition format, syllabus coverage,
+    and evaluation process for the ElectroQuiz competition.
+  </p>
+
+  <a
+    href="/pdfs/ElectroQuiz_Rules_and_Curriculum_2026.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center gap-2 mt-6 rounded-lg bg-indigo-600 px-6 py-3 text-white font-medium transition hover:bg-indigo-700"
+  >
+    📄 Rules and Curriculum for the Quiz — Click Here
+  </a>
+</section>
 
     </main>
   );
 }
+
