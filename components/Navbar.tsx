@@ -9,8 +9,8 @@ export default function Navbar() {
   const [segmentsOpen, setSegmentsOpen] = useState(false);
 
   return (
-    <nav className="bg-black text-white sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between">
+    <nav className="bg-black text-white sticky top-0 z-50 h-[72px] flex items-center">
+      <div className="max-w-7xl mx-auto px-6 w-full flex items-center justify-between">
 
         {/* LOGO */}
         <Link href="/" className="flex items-center">
@@ -46,6 +46,12 @@ export default function Navbar() {
                 className="block px-4 py-3 hover:bg-gray-100"
               >
                 🧠 College / Polytechnic Level
+              </Link>
+              <Link
+                href="/segments/Virtual"
+                className="block px-4 py-3 hover:bg-gray-100"
+              >
+                🌐 Virtual Competitions
               </Link>
             </div>
           </div>
