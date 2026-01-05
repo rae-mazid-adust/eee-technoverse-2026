@@ -25,6 +25,19 @@ const galleryItems = [
     title: "Networking Session – Bridging Generations",
     image: "/images/bridging-generations.jpeg",
   },
+  // 🔽 NEW ITEMS (ADD BELOW)
+  {
+    title: "Call for sponsorship",
+    image: "/images/sponsorship-call.jpeg",
+  },
+  {
+    title: "Tech meme and reels challenge",
+    image: "/images/tech-meme.jpeg",
+  },
+  {
+    title: "Photography contest",
+    image: "/images/photography-contest.jpeg",
+  },
 ];
 
 export default function GalleryPage() {

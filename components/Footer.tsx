@@ -11,7 +11,7 @@ export default function Footer() {
             <h3 className="text-xl font-bold text-white">
               EEE Technoverse 2026
             </h3>
-            <p className="mt-4 text-sm leading-relaxed">
+            <p className="mt-4 text-sm leading-relaxed text-white">
               A flagship technical and cultural fest organized by the
               Department of Electrical and Electronic Engineering, ADUST.
               Bringing innovation, competition, and creativity together.
@@ -50,7 +50,7 @@ export default function Footer() {
             </h4>
             <ul className="space-y-3 text-sm">
               <li>📧 eee@adust.edu.bd, +880 1621-480052 </li>
-              <li>🌐 Department of EEE, ADUST</li>
+              <li>🌐 <Link href="https://www.adust.edu.bd/#/department/Department-of-Electrical-and-Electronic-Engineering-%28EEE%29/1" className="hover:text-white">Dept. website</Link></li>
               <li>
                 🔗 <a
                   href="https://www.facebook.com/eeeadust"
