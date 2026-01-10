@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -39,24 +40,81 @@ export default function Home() {
         </div>
       </section>
 
-{/* REGISTRATION ANNOUNCEMENT BAR */}
-<section className="bg-orange-100 border-y border-yellow-400 py-3 overflow-hidden">
-  <div className="relative whitespace-nowrap group">
-    <div className="inline-block animate-marquee group-hover:[animation-play-state:paused]">
-      <span className="mx-6 text-lg md:text-xl font-semibold text-red-700 animate-pulse">
-        🚨 Registration is Open for participation in EEE Technoverse 2026.
-      </span>
+{/* NOTICE & NEWS SECTION */}
+<section className="bg-gray-100 py-16 px-6">
+  <div className="max-w-5xl mx-auto">
 
-      <span className="mx-6 text-lg md:text-xl font-semibold text-red-700 animate-pulse">
-        🚨 Visit Segments and Complete Registration
-      </span>
+    {/* Section Header */}
+    <div className="text-center mb-12">
+      <h2 className="text-3xl font-bold text-gray-900">
+        📢 Notice & News
+      </h2>
+      <p className="mt-3 text-gray-600">
+        Important announcements and latest updates regarding EEE Technoverse 2026
+      </p>
+    </div>
 
-      <span className="mx-6 text-lg md:text-xl font-semibold text-red-700 animate-pulse">
-        🚨 Registration is Open for participation in EEE Technoverse 2026.
-      </span>
+    {/* Notices */}
+    <div className="space-y-6">
+
+      {/* Notice 1 */}
+      <div className="bg-white border-l-4 border-red-600 rounded-lg p-6 shadow-sm">
+        <h3 className="font-semibold text-lg text-gray-900">
+          EEE Technoverse 2026 - Technical Segments 
+        </h3>
+        <p className="mt-2 text-gray-700">
+          Registration is now open for all segments of EEE Technoverse 2026.
+          These segments are only open to ADUST students. Interested participants are requested to complete their registration
+          through the designated registration links.
+        </p>
+        <a
+          href="/segments/university"
+          className="inline-block mt-3 text-blue-700 font-semibold underline"
+        >
+          Find further details and Register →
+        </a>
+      </div>
+
+      {/* Notice 2 */}
+      <div className="bg-white border-l-4 border-orange-500 rounded-lg p-6 shadow-sm">
+        <h3 className="font-semibold text-lg text-gray-900">
+          ElectroQuiz 2026 – Rules & Curriculum Released
+        </h3>
+        <p className="mt-2 text-gray-700">
+          The detailed rules, syllabus, and competition format for ElectroQuiz 2026 have been published.
+          ElectroQuiz is ONLY FOR COLLEGE AND POLYTECHNIC students.
+        </p>
+        <a
+          href="/segments/college"
+          className="inline-block mt-3 text-blue-700 font-semibold underline"
+        >
+          View ElectroQuiz Details →
+        </a>
+      </div>
+
+      {/* Notice 3 */}
+      <div className="bg-white border-l-4 border-indigo-600 rounded-lg p-6 shadow-sm">
+        <h3 className="font-semibold text-lg text-gray-900">
+          Virtual Competitions Registration Open
+        </h3>
+        <p className="mt-2 text-gray-700">
+          Registration is now open for virtual photography, meme, and reel
+          competitions. Open to all ADUST students.
+        </p>
+        <a
+          href="/segments/Virtual"
+          className="inline-block mt-3 text-blue-700 font-semibold underline"
+        >
+          Explore Virtual Competitions →
+        </a>
+      </div>
+
     </div>
   </div>
 </section>
+
+
+
 
 
 
