@@ -57,28 +57,19 @@ export default function Home() {
     {/* Notices */}
     <div className="space-y-6">
 
-      {/* Notice 1 */}
+{/* Notice 4 */}
       <div className="bg-white border-l-4 border-red-600 rounded-lg p-6 shadow-sm">
         <h3 className="font-semibold text-lg text-gray-900">
-          EEE Technoverse 2026 - Technical Segments 
+          (12/01/2026) Registration of EEE Technoverse 2026 (University Segments) is now CLOSED. Participants will be contacted through their given contact details if necessary.
         </h3>
-        <p className="mt-2 text-gray-700">
-          Registration is now open for all segments of EEE Technoverse 2026.
-          These segments are only open to ADUST students. Interested participants are requested to complete their registration
-          through the designated registration links.
-        </p>
-        <a
-          href="/segments/university"
-          className="inline-block mt-3 text-blue-700 font-semibold underline"
-        >
-          Find further details and Register →
-        </a>
+        
       </div>
 
       {/* Notice 2 */}
       <div className="bg-white border-l-4 border-orange-500 rounded-lg p-6 shadow-sm">
         <h3 className="font-semibold text-lg text-gray-900">
-          ElectroQuiz 2026 – Rules & Curriculum Released
+          ElectroQuiz 2026 || Registration Deadline: 13/01/2026 (11:59 PM)
+          
         </h3>
         <p className="mt-2 text-gray-700">
           The detailed rules, syllabus, and competition format for ElectroQuiz 2026 have been published.
@@ -95,11 +86,12 @@ export default function Home() {
       {/* Notice 3 */}
       <div className="bg-white border-l-4 border-indigo-600 rounded-lg p-6 shadow-sm">
         <h3 className="font-semibold text-lg text-gray-900">
-          Virtual Competitions Registration Open
+          Virtual Competitions || Submission Deadline: 15/01/2026 (11:59 PM)
         </h3>
         <p className="mt-2 text-gray-700">
           Registration is now open for virtual photography, meme, and reel
           competitions. Open to all ADUST students.
+          
         </p>
         <a
           href="/segments/Virtual"
